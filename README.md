@@ -55,7 +55,7 @@ Build an automated daily data pipeline that ingests raw e-commerce data from S3,
 | Component | Description |
 |-----------|-------------|
 | **Data Sources** | Daily CSV files: customers, orders, products |
-| **Data Volume** | ~200 customers, ~50 products, ~5,000 orders daily |
+| **Data Volume** | 4000 customers, 400 products, 10000 orders daily |
 | **Processing Frequency** | Daily at 19:40 UTC |
 | **Orchestration** | Apache Airflow 2.7.1 (Local Docker) |
 | **Cloud Provider** | AWS (us-east-1) |
